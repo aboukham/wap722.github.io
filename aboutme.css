@@ -30,7 +30,7 @@ div>img{
 }
 
 
-body>div::first-letter, ol::first-letter, ul::first-letter{
+body>div::first-letter, body>p::first-letter{
     font-size: 1.5em;
 }
 
