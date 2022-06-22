@@ -1,0 +1,52 @@
+body {
+    background-color:darkgray;
+}
+
+div>spane{
+    color:darkred;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color:darkblue;
+}
+
+ol a{
+    color: red;
+    text-decoration-line: none;
+}
+
+ol a:hover{
+    text-decoration-line: underline;
+}
+
+div.description{
+    font-size: 25px;
+}
+
+div>img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+body>div::first-letter, ol::first-letter, ul::first-letter{
+    font-size: 1.5em;
+}
+
+ol div>spane {
+    color:darkgreen;
+}
+ol div>p {
+    text-indent: 50px;
+}
+
+ol{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+
+
+
+
